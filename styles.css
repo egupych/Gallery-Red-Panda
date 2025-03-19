@@ -51,7 +51,7 @@
   overflow: hidden;
 
   .card-image-wrapper {
-	height: 120%;
+	height: 115%;
 	will-change: transform;
   }
 
@@ -193,7 +193,7 @@ h1 {
   overflow: hidden;
 
   .card-image-wrapper {
-	height: 120%;
+	height: 115%;
 	will-change: transform;
   }
 
