@@ -178,19 +178,70 @@ h1 {
 	grid-template-columns: repeat(1,1fr);
   }
 
-  .card {
-	height: 270px;
+
+.gallery-track {
+  margin-top: 8vw;
+  position: fixed;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 0.25rem;
+  padding: 0.25rem;
+  will-change: transform;
+}
+
+.card {
+  height: 270px;
+  overflow: hidden;
+
+  .card-image-wrapper {
+	height: 135%;
+	will-change: transform;
+  }
+
+  .card-image-wrapper img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+} 
+
+nav {
+	height: 10vw;
+	width: 100%;
+	background-color: rgb(250, 250, 250);
+	position: fixed;
+	z-index: 10;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	user-select: none;
+	padding: 4.4vw;
+}
+
+h1 {
+	font-size: 5.4vw;
+	color: rgb(238, 238, 238);
+	font-family: "Gilroy-UltraLight", sans-serif;
+	letter-spacing: 0.4vw;
+}
+
+.logo img{
+	padding-top: 0.4vw;
+	width: 14vw;
+}
+
+.links {
+	display: flex;
+	cursor: pointer;
+}
+
+.link {
+	position: relative;
 	overflow: hidden;
-  
-	.card-image-wrapper {
-	  height: 135%;
-	  will-change: transform;
-	}
-  
-	.card-image-wrapper img {
-	  width: 100%;
-	  height: 100%;
-	  object-fit: cover;
-	}
-  } 
+	padding-top: 0.4vw;
+	padding-bottom: 1vw;
+	font-size: 3.2vw;
+	color: rgb(190, 190, 190);
+}
+
 }
