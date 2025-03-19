@@ -176,7 +176,7 @@ h1 {
 @media (max-width: 550px) {
 
 .gallery-track {
-  margin-top: 8vw;
+  margin-top: 12vw;
   position: fixed;
   display: grid;
   grid-template-columns: repeat(1,1fr);
@@ -202,7 +202,7 @@ h1 {
 } 
 
 nav {
-	height: 10vw;
+	height: 15vw;
 	width: 100%;
 	background-color: rgb(250, 250, 250);
 	position: fixed;
@@ -211,19 +211,20 @@ nav {
 	align-items: center;
 	justify-content: space-between;
 	user-select: none;
-	padding: 4.4vw;
+	padding: 4.6vw;
 }
 
 h1 {
-	font-size: 5.4vw;
+	font-size: 8.1vw;
 	color: rgb(238, 238, 238);
 	font-family: "Gilroy-UltraLight", sans-serif;
-	letter-spacing: 0.4vw;
+	letter-spacing: 0.6vw;
+	display: none;
 }
 
 .logo img{
-	padding-top: 0.4vw;
-	width: 14vw;
+	padding-top: 0.6vw;
+	width: 21vw;
 }
 
 .links {
@@ -234,9 +235,9 @@ h1 {
 .link {
 	position: relative;
 	overflow: hidden;
-	padding-top: 0.4vw;
-	padding-bottom: 1vw;
-	font-size: 3.2vw;
+	padding-top: 0.6vw;
+	padding-bottom: 1.5vw;
+	font-size: 4.8vw;
 	color: rgb(190, 190, 190);
 }
 
