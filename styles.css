@@ -174,16 +174,12 @@ h1 {
 }
 
 @media (max-width: 550px) {
-  .gallery-track {
-	grid-template-columns: repeat(1,1fr);
-  }
-
 
 .gallery-track {
   margin-top: 8vw;
   position: fixed;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(1,1fr);
   gap: 0.25rem;
   padding: 0.25rem;
   will-change: transform;
