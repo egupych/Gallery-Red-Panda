@@ -171,6 +171,9 @@ h1 {
   .gallery-track {
 	grid-template-columns: repeat(2,1fr);
   }
+  .card {
+	height: 250px;
+  } 
 }
 
 @media (max-width: 550px) {
