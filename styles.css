@@ -186,7 +186,7 @@ h1 {
 }
 
 .card {
-  height: 270px;
+  height: 300px;
   overflow: hidden;
 
   .card-image-wrapper {
