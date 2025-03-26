@@ -34,6 +34,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgb(250, 250, 250);
 }
 
 .gallery-track {
@@ -75,12 +76,7 @@ nav {
 	padding: 2.2vw;
 }
 
-h1 {
-	font-size: 2.7vw;
-	color: rgb(238, 238, 238);
-	font-family: "Gilroy-UltraLight", sans-serif;
-	letter-spacing: 0.2vw;
-}
+
 
 .logo img{
 	padding-top: 0.2vw;
@@ -93,14 +89,23 @@ h1 {
 	cursor: pointer;
 }
 
+h1 {
+	font-size: 1.4vw;
+	font-family: 'Gilroy-Regular';
+	font-weight: 400;
+	color: rgb(190, 190, 190);
+	padding-bottom: 0.5vw;
+}
+
 .link {
 	position: relative;
 	overflow: hidden;
-	padding-top: 0.2vw;
 	padding-bottom: 0.5vw;
-	font-size: 1.6vw;
+	font-size: 1.4vw;
 	color: rgb(190, 190, 190);
 }
+
+
 
 
 .linkline {
@@ -218,10 +223,6 @@ nav {
 }
 
 h1 {
-	font-size: 8.1vw;
-	color: rgb(238, 238, 238);
-	font-family: "Gilroy-UltraLight", sans-serif;
-	letter-spacing: 0.6vw;
 	display: none;
 }
 
