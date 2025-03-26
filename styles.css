@@ -63,6 +63,15 @@
   }
 } 
 
+.card-image-wrapper img {
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-image-wrapper img:active {
+    transform: scale(1.2);
+}
+
 nav {
 	height: 5vw;
 	width: 100%;
@@ -227,7 +236,7 @@ h1 {
 }
 
 .logo img{
-	padding-top: 0.6vw;
+	padding-top: 0.2vw;
 	width: 21vw;
 }
 
@@ -240,7 +249,7 @@ h1 {
 	position: relative;
 	overflow: hidden;
 	padding-top: 0.6vw;
-	padding-bottom: 1.5vw;
+	padding-bottom: 1.2vw;
 	font-size: 4.8vw;
 	color: rgb(190, 190, 190);
 }

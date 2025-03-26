@@ -42,3 +42,13 @@ function init() {
 window.addEventListener('load',updateScroll,false);
 window.addEventListener('scroll',init,false);
 window.addEventListener('resize',updateScroll,false);
+
+document.querySelectorAll('.card-image-wrapper img').forEach(img => {
+  img.addEventListener('mousedown', () => {
+      img.style.transform = 'scale(1.2)';
+      
+      setTimeout(() => {
+          img.style.transform = 'scale(1)';
+      }, 300); // Вернётся через X мс
+  });
+});
