@@ -38,7 +38,7 @@
 }
 
 .gallery-track {
-  margin-top: 3vw;
+  margin-top: 4vw;
   position: fixed;
   display: grid;
   grid-template-columns: repeat(3,1fr);
