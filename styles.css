@@ -38,7 +38,7 @@
 }
 
 .gallery-track {
-  margin-top: 4vw;
+  margin-top: 3vw;
   position: fixed;
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -50,6 +50,7 @@
 .card {
   height: 400px;
   overflow: hidden;
+  cursor: pointer;
 
   .card-image-wrapper {
 	height: 115%;
